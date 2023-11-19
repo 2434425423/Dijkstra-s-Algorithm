@@ -67,6 +67,28 @@ int main() {
     std::cin >> target;
 
     Dijkstra(graph, source, V, target);
+Output:
+/tmp/QWskDgVjR4.o
+Enter the number of vertices: 4
+Enter the adjacency matrix:
+0 1 4 0
+1 0 2 5
+4 2 0 1
+0 5 1 0
+
+0 1 4 0
+
+1 0 2 5
+
+4 2 0 1
+
+0 5 1 0
+
+
+Enter the source node: 0
+Enter the target node: 3
+Vertex	 Distance from Source	Path
+3 		 4		0 -> 2 -> 1 -> 0
 
     return 0;
 }
